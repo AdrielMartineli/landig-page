@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Landing page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contate me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="titulo_home">
+            <h1>site do adriel manero</h1>
+            <h2>Até agr eu nao sei pra q e esse site</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ]
+                Sunt enim cupiditate aliquam repellat non ea. Mollitia id</p>
+                <button class="explore">Explore</button>
+        </div>
+        <div class="foto">
+            <img src="assets/img/astronauta.svg" alt="astronauta" width="350" height="350">
+        </div>
+    </section>
+    <main>
+        <section id="sobre">
+           
+        </section>
+
+    <section id="contato">
+        <div class="contato_texto">
+            <h1>Me contate</h1>
+            <div class="contato_conteudo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quis quibusdam, totam, eaque adipisci, quam iure accusantium aspernatur neque recusandae nam quasi dignissimos aliquid pariatur repellat rem quos laborum. Illum.</p>
+            </div>
+            <div class="contato_icones">
+                <a href="https://github.com/AdrielMartineli" target="_blank"><img src="assets/img/github.svg" alt="icone github"></a>
+                <a href="https://www.instagram.com/adriel_martinelli/" target="_blank"><img src="assets/img/instagram.svg" alt="icone instagram"></a>
+                <a href="https://www.linkedin.com/in/adriel-martineli-57a0551b7/" target="_blank"> <img src="assets/img/linkedin.svg" alt="icone linkedin"></a>
+            </div>
+        </div>
+        <div id="contato_formulario">
+            <form class="contato_formulario_form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" onkeyup="validaform()" required>
+                <label for="email">Email:</label>
+                <input for="email" id="email" name="email"onkeyup="validaform()" required>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" maxlength="100" required="">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="3" name="mensagem" required=""></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    </main>
+    <footer>Desenvolvido por Adriel Modesto Martineli</footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

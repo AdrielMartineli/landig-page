@@ -1,0 +1,250 @@
+
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(58, 43, 114);
+    color: aliceblue;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+body{
+    background-color: rgb(202, 202, 202);
+}
+#home {
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+}
+.titulo_home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+.foto{
+    width: 350px;
+    height: 350px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.texto_home_botao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -15px;
+}
+.texto{
+    color: var(--preto);
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.explore{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(58, 43, 114);
+    color: aliceblue;
+    text-align: center;
+    
+}
+#sobre{
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    
+}
+.sobre_img{
+    width: 40%;
+    height: 100%;
+}
+.sobre_img img{
+    border: 5px solid rgb(58, 43, 114);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: -50px;
+}
+.sobre_texto{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+.sobre_paragrafo p{
+    color: black;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.sobre_botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.sobre_botao{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(58, 43, 114);
+    color: aliceblue;
+    
+    
+}
+.sobre_botoes h2{
+    color: black;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 17px;
+}
+#contato {
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    margin-top: 150px;
+}
+.contato_texto{
+  width: 60%;  
+}
+.contato_texto h1{
+    color: var(--preto);
+    font-size: 25px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.contato_conteudo p{
+    color: var(--preto);
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: start;
+}
+.contato_icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.contato_icones img {
+    width: 60px;
+    height: 60px;
+    transition: fill 0.3s, opacity 0.3s;
+}
+#contato_formulario{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contato_formulario_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: start;
+}
+.contato_formulario_form input, .contato_formulario_form textarea {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: black;
+}
+.contato_formulario_form button {
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(58, 43, 114);
+    color: white;
+    font-size: 20px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 300;
+}
+footer {
+    height: 60px;
+    background-color: rgb(58, 43, 114);
+    color: var(--branco);
+    font-size: 10px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
